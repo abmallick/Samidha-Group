@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<!--
+   Developed By SARK
+   -->
+<html>
+   <head>
+      <title>Samidha Group</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+      <link rel="stylesheet" href="assets/css/gallery.css">
+      <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <!--[if lte IE 9]>
+      <link rel="stylesheet" href="assets/css/ie9.css" />
+      <![endif]-->
+      <!--[if lte IE 8]>
+      <link rel="stylesheet" href="assets/css/ie8.css" />
+      <![endif]-->
+   </head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span><img src="images/logo.png" alt="" width="80%"/></span><span class="title"><h2></h2></span>
+								</a>
+								
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+               				<li><a href="admission.html">Admission</a></li>
+               				<li><a href="verify.html">Certificate Verification</a></li>
+               				<li><a href="apps.html">Apps</a></li>
+              			 	<li><a href="gallery.html">Gallery</a></li>
+              			 	<li><a href="courses.html">Courses</a></li>
+              			 	<li><a href="about.html">About US</a></li>
+						</ul>
+					</nav>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							
+							<div class="inner" align="right">
+							<section>
+								<ul class="icons">
+									<li><a href="https://www.twitter.com/samidhagroup" class="icon style2 fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                           <li><a href="https://www.facebook.com/Samidhagroup/" class="icon style2 fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+									
+								</ul>
+							</section>
+						</div>
+							
+						<div class="w3-content w3-display-container">
+  <img class="mySlides" src="gallery/a.jpg" style="width:100%">
+  <img class="mySlides" src="gallery/c.jpg" style="width:100%">
+  <img class="mySlides" src="gallery/d.jpg" style="width:100%">
+  <img class="mySlides" src="gallery/e.jpg" style="width:100%">
+  <img class="mySlides" src="gallery/f.jpg" style="width:100%">
+  <img class="mySlides" src="gallery/g.jpg" style="width:100%">
+  <img class="mySlides" src="gallery/h.jpg" style="width:100%">
+  <img class="mySlides" src="gallery/i.jpg" style="width:100%">
+  <img class="mySlides" src="gallery/j.jpg" style="width:100%">
+  <img class="mySlides" src="gallery/k.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li><b>&copy; Samidha Group. All rights reserved</li><li>Design: <a href="http://www.facebook.com/abhinav.mallick1/" target="_blank">Abhinav Mallick</a></b>
+								</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+ 			 showDivs(slideIndex += n);
+				}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  if (n > x.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+			     x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			}
+</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
